@@ -109,7 +109,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/people-office.jpg);
+      url(./images/people-office.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -810,7 +810,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/people-office@2x.jpg);
+      url(./images/people-office@2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -999,7 +999,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/people-office@2x.jpg);
+      url(./images/people-office@2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
