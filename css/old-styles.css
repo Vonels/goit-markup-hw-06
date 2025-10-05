@@ -1045,7 +1045,6 @@
   .footer-conteiner {
     display: flex;
     align-items: baseline;
-
     flex-wrap: nowrap;
     justify-content: space-between;
   }
