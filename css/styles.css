@@ -31,8 +31,9 @@
 
   img {
     display: block;
+    max-width: 100%;
+    height: auto;
   }
-
   .section {
     padding: 96px 0;
   }
@@ -69,7 +70,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
+    padding: 16px 0;
   }
 
   .header-conteiner {
@@ -114,9 +115,6 @@
     background-size: cover;
     background-position: center;
     color: #fff;
-
-    max-width: 320px;
-    min-height: 432px;
     margin: 0 auto;
   }
 
@@ -132,7 +130,7 @@
 
     max-width: 320px;
     margin: 0 auto;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
   }
 
   .button-title {
@@ -153,7 +151,6 @@
     height: 56px;
     margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 30px;
   }
 
   .button-title:hover {
@@ -192,9 +189,12 @@
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    margin-bottom: 72px;
   }
-
+  .spdt-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+  }
   .op-title {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
@@ -441,7 +441,6 @@
     justify-content: center;
     gap: 16px;
     cursor: pointer;
-    margin-left: 40px;
   }
 
   .form-p {
@@ -451,7 +450,6 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin: 0 107px 16px 106px;
   }
 
   .form-title {
@@ -717,7 +715,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 16px;
   z-index: 9999999;
   background-color: #ffffff;
   transform: translateX(100%);
@@ -768,7 +765,6 @@
 
 .svg-icon-footer-menu {
   display: flex;
-  justify-content: center;
   gap: 30px;
   cursor: pointer;
 }
@@ -853,7 +849,9 @@
     color: #404bbf;
     position: relative;
   }
-
+  .footer-h {
+    margin-left: 0;
+  }
   .link-title {
     display: block;
     font-family: "Roboto", sans-serif;
@@ -906,7 +904,7 @@
   .spdt-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
   }
 
   .our-list {
@@ -937,6 +935,7 @@
   .footer-logo {
     display: flex;
     flex-direction: column;
+    margin-right: 40px;
   }
   .logo-title-foot {
     text-align: start;
@@ -957,12 +956,13 @@
     margin-left: 0;
   }
   .form-buttom {
-    margin-left: 24px;
+    margin: 0;
   }
   .footer-conteiner {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    padding: 0 108px;
   }
   .item {
     width: calc((100% - 24px) / 2);
@@ -1068,12 +1068,11 @@
     display: flex;
     align-items: baseline;
     flex-wrap: nowrap;
-    justify-content: space-between;
   }
   .footer-svg {
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 120px;
   }
   .footer-form {
     margin-left: 80px;
@@ -1087,12 +1086,6 @@
   }
   .footer-svg {
     margin-bottom: 0;
-  }
-  .footer-h {
-    margin-left: 45px;
-  }
-  .logo-title-foot {
-    margin-right: 150px;
   }
   .port-transform {
     position: relative;
